@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "FTIR Lab"
+message: "If you use FTIR Lab in your research, please cite it using the metadata below."
+
+type: software
+
+authors:
+  - family-names: "Farazi"
+    given-names: "Khalid"
+    orcid: "https://orcid.org/0009-0001-3267-5905"
+
+version: "3.0.1"
+
+doi: "10.5281/zenodo.21766543"
+
+date-released: "2026-08-03"
+
+license: "GPL-3.0-only"
+
+repository-code: "https://github.com/khalid-farazi/FTIR-Lab"
+
+url: "https://github.com/khalid-farazi/FTIR-Lab"
