@@ -3,7 +3,7 @@ GPL v3 | Python | Windows | Open Source | DOI (later)
 
 <img width="606" height="166" alt="image" src="https://github.com/user-attachments/assets/fbbcb666-bfa1-41d6-b579-b5665c27f287" />
 
-Aimed to provide free piracy free **Halal** software for all.
+Developed by Halal Soft to promote a piracy-free, ethical ("Halal") software ecosystem for scientific research.
 
 Open-source FTIR software featuring a beginner-friendly graphical interface for publication-quality spectrum processing, analysis, automated peak assignment, and visualization. Designed for reproducible scientific research. 
 <img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/c25f25a5-fcff-46a1-a563-f0b340852638" />
