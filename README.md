@@ -1,18 +1,37 @@
-# FTIR-Lab
+<div align="center">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21766542.svg)](https://doi.org/10.5281/zenodo.21766542)
-![License](https://img.shields.io/badge/License-GPL_v3-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
+# FTIR Lab
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/fbbcb666-bfa1-41d6-b579-b5665c27f287" alt="FTIR-Lab Logo" width="600" />
-</p>
+### Open-Source Software for Publication-Quality FTIR Analysis
+
+**Spectrum Processing • Peak Assignment • Scientific Visualization**
+
+<br>
+
+![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21766542-blue)
+![GPL](https://img.shields.io/badge/License-GPLv3-success)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Windows](https://img.shields.io/badge/Windows-Supported-blue)
+
+<br>
+
+Developed by **Halal Soft**
+
+*Making scientific software ethical, accessible, and open.*
+
+</div>
+
+---
+
 
 Developed by **Halal Soft**, an initiative promoting ethical, legally licensed, and open-source scientific software.
 
 ---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c25f25a5-fcff-46a1-a563-f0b340852638" alt="FTIR-Lab Interface 1" width="100%" />
+</p>
 
+---
 ## 💡 Why FTIR-Lab?
 
 FTIR-Lab is an open-source desktop application for FTIR spectrum processing, analysis, and publication-quality visualization. It is designed to make advanced spectral analysis accessible to beginners while remaining powerful enough for research applications.
@@ -20,14 +39,8 @@ FTIR-Lab is an open-source desktop application for FTIR spectrum processing, ana
 Unlike general-purpose plotting software, FTIR-Lab integrates spectrum preprocessing, peak detection, functional-group assignment, and publication-quality visualization into a single workflow.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c25f25a5-fcff-46a1-a563-f0b340852638" alt="FTIR-Lab Interface 1" width="100%" />
-</p>
-
-<p align="center">
   <img src="https://github.com/user-attachments/assets/0eb6a3dc-35ef-4456-8470-e7e7b10cf5d0" alt="FTIR-Lab Interface 2" width="100%" />
 </p>
-
----
 
 ## ✨ Key Features
 
