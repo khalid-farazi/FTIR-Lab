@@ -1,5 +1,5 @@
 # FTIR-Lab
-GPL v3 | Python | Windows | Open Source | DOI (later)
+GPL v3 | Python | Windows | Open Source | DOI (10.5281/zenodo.21766542)
 
 <img width="606" height="166" alt="image" src="https://github.com/user-attachments/assets/fbbcb666-bfa1-41d6-b579-b5665c27f287" />
 
@@ -16,18 +16,30 @@ For installation,
 User Guide:
 For absolute beginners, there is a rapid 6 step solution at the top left side of the software UI:
 
-Step 01: Load Files(.csv or .xlsx)
+#Step 01: 
+Load Files(.csv or .xlsx)
 <img width="1918" height="1012" alt="image" src="https://github.com/user-attachments/assets/1ee3cbe6-3b92-4ae7-9b57-740a354a2dfd" />
 
-Step 02: Remove noise
+#Step 02: 
+Remove noise
 <img width="1919" height="1015" alt="remove noise" src="https://github.com/user-attachments/assets/09d8f925-810e-4ae0-965d-7d593c715f9c" />
-Step 03: Automatically detect peaks. These peaks can be manually added or removed. The resolution and settings for auto detection can also be modified.
+#Step 03: 
+Automatically detect peaks. These peaks can be manually added or removed. The resolution and settings for auto detection can also be modified.
 <img width="1919" height="1020" alt="step 3" src="https://github.com/user-attachments/assets/5fb96e8c-cbff-4171-ab1c-aec9f792150a" />
-Step 04: Functional group assignment library. You can use default library or edit it ( if your desired category isn't available).
+#Step 04: 
+Functional group assignment library. You can use default library or edit it ( if your desired category isn't available).
 <img width="1280" height="720" alt="functional group" src="https://github.com/user-attachments/assets/92ea9c91-29d3-4320-9bcf-2f563035a73c" />
-Step 05: Export plot in TIFF, SVG, PNG and PDF format.
+#Step 05:
+Export plot in TIFF, SVG, PNG and PDF format.
 <img width="909" height="179" alt="image" src="https://github.com/user-attachments/assets/9f1af7c2-13db-4201-ba9d-7c72539cfa5a" />
 
-Step 06: Export peaks and their references to .xlsx or .csv.
+#Step 06: 
+Export peaks and their references to .xlsx or .csv.
 <img width="1919" height="530" alt="image" src="https://github.com/user-attachments/assets/d50e98d4-88d2-41ea-9afc-99917655c8ca" />
 
+## Citation
+
+If you use FTIR Lab in your research, please cite:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21766542.svg)](https://doi.org/10.5281/zenodo.21766542)
+
+> Farazi, K. A. (2026). FTIR-Lab (Version 3.0.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.21766542
