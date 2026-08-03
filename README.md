@@ -8,10 +8,10 @@
 
 <br>
 
-![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21766542-blue)
-![GPL](https://img.shields.io/badge/License-GPLv3-success)
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Windows](https://img.shields.io/badge/Windows-Supported-blue)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21766542-800000)](https://doi.org/10.5281/zenodo.21766542)
+![GPL](https://img.shields.io/badge/License-GPLv3-2EA44F)
+![Python](https://img.shields.io/badge/Python-3.x-3776AB)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D4)](https://github.com/khalid-farazi/FTIR-Lab/releases)
 
 <br>
 
