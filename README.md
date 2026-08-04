@@ -1,6 +1,6 @@
 <div align="center">
 
-# FTIR Lab
+<img width="375" height="98" alt="FTIR-Lab Logo" src="https://github.com/user-attachments/assets/511f6386-01ed-429d-ad41-fb7f3980527c" />
 
 ### Open-Source Software for Publication-Quality FTIR Analysis
 
@@ -15,85 +15,101 @@
 
 <br>
 
-Developed by **Halal Soft**
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge&logo=github)](https://github.com/khalid-farazi/FTIR-Lab/releases/latest)
 
-*Making scientific software ethical, accessible, and open.*
+<br><br>
+
+> **سَنُرِيهِمْ آيَاتِنَا فِي الْآفَاقِ وَفِي أَنفُسِهِمْ حَتَّىٰ يَتَبَيَّنَ لَهُمْ أَنَّهُ الْحَقُّ**
+>
+> *"আমরা অতিশীঘ্রই তাদেরকে আমাদের নিদর্শনসমূহ দেখাবো দূর-দিগন্তে এবং তাদের নিজেদের মধ্যে, যতক্ষণ না তাদের কাছে স্পষ্টভাবে ফুটে ওঠে যে এটিই সত্য।"*
+>
+> *"We will show them Our signs in the horizons and within themselves until it becomes clear to them that it is the truth."*
+>
+> — **Surah Fussilat (41:53)**
 
 </div>
 
 ---
 
+## Why FTIR-Lab?
 
-Developed by **Halal Soft**, an initiative promoting ethical, legally licensed, and open-source scientific software.
+FTIR-Lab is an open-source desktop application for FTIR spectrum processing, analysis, and publication-quality visualization. It's built to be usable by beginners while remaining powerful enough for research work.
 
----
+Unlike general-purpose plotting software, FTIR-Lab integrates spectrum preprocessing, peak detection, functional-group assignment, and publication-quality visualization into a single, streamlined workflow.
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c25f25a5-fcff-46a1-a563-f0b340852638" alt="FTIR-Lab Interface 1" width="100%" />
+  <img src="https://github.com/user-attachments/assets/0eb6a3dc-35ef-4456-8470-e7e7b10cf5d0" alt="FTIR-Lab Interface" width="100%" />
 </p>
 
 ---
-## 💡 Why FTIR-Lab?
 
-FTIR-Lab is an open-source desktop application for FTIR spectrum processing, analysis, and publication-quality visualization. It is designed to make advanced spectral analysis accessible to beginners while remaining powerful enough for research applications.
+## Key Features
 
-Unlike general-purpose plotting software, FTIR-Lab integrates spectrum preprocessing, peak detection, functional-group assignment, and publication-quality visualization into a single workflow.
+**Preprocessing**
+- Asymmetric Least Squares (AsLS) baseline correction
+- Savitzky-Golay smoothing with custom window sizes
+- Air-artifact removal via region interpolation (2000–2500 cm⁻¹) to mask atmospheric CO₂ and water vapor noise
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0eb6a3dc-35ef-4456-8470-e7e7b10cf5d0" alt="FTIR-Lab Interface 2" width="100%" />
-</p>
+**Analysis**
+- Automatic and manual peak detection with adjustable prominence/separation sensitivity
+- Context-aware functional group library with material-specific suggestions and guided confirmation
 
-## ✨ Key Features
+**Visualization & Export**
+- Stacked or overlaid multi-curve layouts with adjustable spacing and curve height
+- One-click single/double-column journal presets with smart label staggering
+- Vector and raster export: `.png`, `.svg`, `.tiff`, `.pdf`
 
-* **Asymmetric Least Squares (AsLS)** baseline correction.
-* **Savitzky-Golay** smoothing and noise reduction.
-* **Automatic and Manual Peak Detection** with customizable sensitivity.
-* **Built-in Functional Group Library** with guided peak assignments.
-* **Publication-Ready Figures**: Export plots in `.png`, `.svg`, `.tiff`, and `.pdf`.
-* **Data Export**: Export fitted peak tables and references directly to `.xlsx` or `.csv`.
+**Data Export**
+- Fitted peak tables, intensities, and reference assignments exportable to `.xlsx` or `.csv`
 
 ---
 
-## 📦 Quick Start (Windows)
+## Installation
 
-No installation is required. Simply extract the ZIP archive and run `FTIR-Lab.exe`.
-
-1. Download the latest release package from the **[Releases](../../releases)** section.
+### Portable Executable (Windows)
+1. Download the latest release from [Releases](https://github.com/khalid-farazi/FTIR-Lab/releases).
 2. Extract the `.zip` archive to your preferred location.
-3. Launch `FTIR-Lab.exe` to begin.
+3. Launch `FTIR-Lab.exe` — no installation required.
 
 ---
 
-## 📖 User Guide
+## Supported File Formats
 
-For absolute beginners, follow the **6-Step Essential Workflow** located at the top left of the application interface:
+**Input:** `.csv`, `.xlsx`
 
-### **Step 1: Load Files**
-Import your spectra data files (`.csv` or `.xlsx`).
-![Step 1](https://github.com/user-attachments/assets/1ee3cbe6-3b92-4ae7-9b57-740a354a2dfd)
-
-### **Step 2: Smooth & Baseline Correction**
-Apply smoothing filters and AsLS baseline correction to remove noise and baseline offset.
-![Step 2](https://github.com/user-attachments/assets/09d8f925-810e-4ae0-965d-7d593c715f9c)
-
-### **Step 3: Auto-Detect Peaks**
-Automatically detect peak positions with adjustable prominence and resolution, or click to manually add/remove peaks.
-![Step 3](https://github.com/user-attachments/assets/5fb96e8c-cbff-4171-ab1c-aec9f792150a)
-
-### **Step 4: Assign Functional Groups**
-Match detected peaks with the built-in functional group library (or customize and expand the library for your specific materials).
-![Step 4](https://github.com/user-attachments/assets/92ea9c91-29d3-4320-9bcf-2f563035a73c)
-
-### **Step 5: Export Plot**
-Export publication-quality spectra plots in TIFF, SVG, PNG, or PDF format.
-![Step 5](https://github.com/user-attachments/assets/9f1af7c2-13db-4201-ba9d-7c72539cfa5a)
-
-### **Step 6: Export Peak Data**
-Export peak locations, intensities, and functional group assignments directly to `.xlsx` or `.csv`.
-![Step 6](https://github.com/user-attachments/assets/d50e98d4-88d2-41ea-9afc-99917655c8ca)
+**Export:** `.png`, `.svg`, `.tiff`, `.pdf` (plots) · `.xlsx`, `.csv` (peak data)
 
 ---
 
-## 📜 Citation
+## User Guide (6-Step Essential Workflow)
+
+### Step 1: Load Files
+Import raw spectra files (`.csv` or `.xlsx`) directly into the project panel.
+
+### Step 2: Smooth & Baseline Correction
+Apply AsLS baseline correction, adjust Savitzky-Golay window sizes, and toggle air-artifact region interpolation (2000–2500 cm⁻¹) to clean raw spectra.
+
+### Step 3: Auto-Detect Peaks
+Detect peak positions automatically using customizable prominence and separation thresholds, or click directly on the curve to manually refine peak markers.
+
+### Step 4: Assign Functional Groups
+Match detected peaks against the built-in library with context-aware material suggestions, or customize and expand the library for specific samples.
+
+### Step 5: Export Plot & Adjust Layout
+Choose between Stacked or Overlaid layouts, configure single/double-column journal widths, apply smart label staggering to avoid overlap, and export to `.pdf`, `.svg`, `.tiff`, or `.png`.
+
+### Step 6: Export Peak Data
+Save compiled peak locations, intensities, and functional group assignments to Excel or CSV for tabular reporting.
+
+---
+
+## License
+
+FTIR-Lab is released under the [GPLv3 License](https://github.com/khalid-farazi/FTIR-Lab/blob/main/LICENSE).
+
+---
+
+## Citation
 
 If you use **FTIR-Lab** in your research or publications, please cite it as:
 
@@ -108,5 +124,32 @@ If you use **FTIR-Lab** in your research or publications, please cite it as:
   year         = {2026},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.21766542},
-  url          = {[https://doi.org/10.5281/zenodo.21766542](https://doi.org/10.5281/zenodo.21766542)}
+  url          = {https://doi.org/10.5281/zenodo.21766542}
 }
+```
+
+---
+
+## Author's Note
+
+<div align="center">
+
+FTIR-Lab is built on the belief that scientific inquiry, empirical investigation, and research tools should be transparent, accessible, and shared openly for the advancement of knowledge.
+
+<br>
+
+**قُلْ أَرَأَيْتُمْ إِن كَانَ مِنْ عِندِ اللَّهِ ثُمَّ كَفَرْتُم بِهِ مَنْ أَضَلُّ مِمَّنْ هُوَ فِي شِقَاقٍ بَعِيدٍ**
+
+<br>
+
+*"বলুন, 'তোমরা ভেবে দেখেছ কি, যদি এ কুরআন আল্লাহর কাছ থেকে নাযিল হয়ে থাকে আর তোমরা এটা প্রত্যাখ্যান কর, তবে যে ব্যক্তি ঘোর বিরোধিতায় লিপ্ত আছে, তার চেয়ে বেশী বিভ্রান্ত আর কে?'"*
+
+<br>
+
+*"Say, 'Have you considered: if the Qur'an is from Allah and you disbelieved in it, who is more astray than one who is in extreme dissension?'"*
+
+<br>
+
+— **Surah Fussilat (41:52)**
+
+</div>
