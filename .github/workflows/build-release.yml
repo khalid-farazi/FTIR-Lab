@@ -1,0 +1,37 @@
+name: Build desktop packages
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            artifact: FTIR-Lab-Windows
+          - os: macos-latest
+            artifact: FTIR-Lab-macOS
+          - os: ubuntu-latest
+            artifact: FTIR-Lab-Linux
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Linux Tk
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y python3-tk
+      - run: python -m pip install -r requirements-build.txt
+      - run: python -m unittest discover -s tests -v
+      - run: pyinstaller --noconfirm --clean ftir_lab/Halal_FTIR_v3_Standard.spec
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}-v3.1
+          path: dist/FTIR Lab v3.1/**
+          if-no-files-found: error
+
