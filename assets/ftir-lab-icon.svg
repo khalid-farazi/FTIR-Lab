@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="88" fill="#06132f"/>
+  <path d="M54 342 C103 333 111 223 162 227 S221 309 264 238 S342 196 378 260 S426 291 458 213"
+        fill="none" stroke="#78dde0" stroke-width="18" stroke-linecap="round"/>
+  <text x="256" y="174" text-anchor="middle" fill="#eafbfb"
+        font-family="Georgia,serif" font-weight="700" font-size="132">IR</text>
+  <circle cx="54" cy="342" r="10" fill="#8a1538"/>
+  <circle cx="458" cy="213" r="10" fill="#8a1538"/>
+</svg>

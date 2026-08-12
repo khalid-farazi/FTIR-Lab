@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 260">
+  <rect width="1080" height="260" fill="none"/>
+  <rect x="24" y="35" width="190" height="190" rx="36" fill="#06132f"/>
+  <text x="119" y="158" text-anchor="middle" fill="#b9f0f0"
+        font-family="Georgia,serif" font-weight="700" font-size="112">IR</text>
+  <text x="254" y="166" fill="#06132f" font-family="Georgia,serif"
+        font-weight="700" font-size="132">FTIR</text>
+  <text x="604" y="166" fill="#29465b" font-family="Georgia,serif"
+        font-size="88">Lab</text>
+  <path d="M260 196 H790" stroke="#8a1538" stroke-width="8" stroke-linecap="round"/>
+</svg>

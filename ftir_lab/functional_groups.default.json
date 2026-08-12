@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "notice": "Assignments are literature-guided suggestions. Confirm using sample chemistry, band shape, controls, and complementary evidence before publication.",
+  "entries": [
+    {
+      "id": "general-oh-stretch",
+      "enabled": true,
+      "context": "General",
+      "group": "O–H stretching",
+      "min_cm-1": 3200,
+      "max_cm-1": 3600,
+      "note": "Often broad when hydrogen bonded; water, alcohols, phenols, and surface hydroxyls can overlap.",
+      "citation": "Coates, J. (2006). Interpretation of Infrared Spectra, A Practical Approach.",
+      "doi": "10.1002/9780470027318.a5606"
+    },
+    {
+      "id": "general-nh-stretch",
+      "enabled": true,
+      "context": "General",
+      "group": "N–H stretching",
+      "min_cm-1": 3300,
+      "max_cm-1": 3500,
+      "note": "Primary and secondary amines/amides; inspect multiplicity and carbonyl region.",
+      "citation": "Coates, J. (2006). Interpretation of Infrared Spectra, A Practical Approach.",
+      "doi": "10.1002/9780470027318.a5606"
+    },
+    {
+      "id": "general-ch-sp3",
+      "enabled": true,
+      "context": "General",
+      "group": "aliphatic C–H stretching",
+      "min_cm-1": 2850,
+      "max_cm-1": 3000,
+      "note": "Typical sp3 C–H stretching envelope.",
+      "citation": "Coates, J. (2006). Interpretation of Infrared Spectra, A Practical Approach.",
+      "doi": "10.1002/9780470027318.a5606"
+    },
+    {
+      "id": "general-ch-sp2",
+      "enabled": true,
+      "context": "General",
+      "group": "sp2 C–H stretching",
+      "min_cm-1": 3000,
+      "max_cm-1": 3100,
+      "note": "Alkenyl or aromatic C–H; confirm with fingerprint-region bands.",
+      "citation": "Coates, J. (2006). Interpretation of Infrared Spectra, A Practical Approach.",
+      "doi": "10.1002/9780470027318.a5606"
+    },
+    {
+      "id": "general-carbonyl",
+      "enabled": true,
+      "context": "General",
+      "group": "C=O stretching",
+      "min_cm-1": 1650,
+      "max_cm-1": 1800,
+      "note": "Aldehydes, ketones, acids, esters, and amides overlap; use exact position and companion bands.",
+      "citation": "Coates, J. (2006). Interpretation of Infrared Spectra, A Practical Approach.",
+      "doi": "10.1002/9780470027318.a5606"
+    },
+    {
+      "id": "general-cc-aromatic",
+      "enabled": true,
+      "context": "General",
+      "group": "aromatic C=C stretching",
+      "min_cm-1": 1450,
+      "max_cm-1": 1625,
+      "note": "Usually interpreted as a pattern of multiple ring bands.",
+      "citation": "Coates, J. (2006). Interpretation of Infrared Spectra, A Practical Approach.",
+      "doi": "10.1002/9780470027318.a5606"
+    },
+    {
+      "id": "general-co",
+      "enabled": true,
+      "context": "General",
+      "group": "C–O stretching",
+      "min_cm-1": 1000,
+      "max_cm-1": 1300,
+      "note": "Alcohols, ethers, esters, and acids may contribute; assignment is not unique.",
+      "citation": "Coates, J. (2006). Interpretation of Infrared Spectra, A Practical Approach.",
+      "doi": "10.1002/9780470027318.a5606"
+    },
+    {
+      "id": "water-bending",
+      "enabled": true,
+      "context": "Hydroxyl / water",
+      "group": "H–O–H bending (molecular water)",
+      "min_cm-1": 1600,
+      "max_cm-1": 1660,
+      "note": "Commonly accompanies a broad O–H stretching envelope; verify moisture/background effects.",
+      "citation": "Coates, J. (2006). Interpretation of Infrared Spectra, A Practical Approach.",
+      "doi": "10.1002/9780470027318.a5606"
+    },
+    {
+      "id": "silicate-si-o-stretch",
+      "enabled": true,
+      "context": "Silicate",
+      "group": "Si–O / Si–O–Si stretching",
+      "min_cm-1": 900,
+      "max_cm-1": 1200,
+      "note": "Network stretching region; composition, polymerization, bond angle, and measurement mode shift the band.",
+      "citation": "Doremus, R. H. et al. (1997). Correlation of silica glass properties with the infrared spectra.",
+      "doi": "10.1016/S0022-3093(96)00542-X"
+    },
+    {
+      "id": "silicate-nbo-stretch",
+      "enabled": true,
+      "context": "Silicate",
+      "group": "Si–O non-bridging oxygen stretching",
+      "min_cm-1": 880,
+      "max_cm-1": 1000,
+      "note": "Approximate modifier-sensitive region; confirm against composition and a suitable material-specific source.",
+      "citation": "Hanna, R. (1964). Infrared Absorption Spectra of Sodium Silicate Glasses from 4 to 30 μm.",
+      "doi": "10.1111/j.1151-2916.1964.tb13113.x"
+    },
+    {
+      "id": "silicate-ring",
+      "enabled": true,
+      "context": "Silicate",
+      "group": "silicate network / ring vibration",
+      "min_cm-1": 750,
+      "max_cm-1": 850,
+      "note": "May include symmetric Si–O–Si modes; interpretation depends strongly on structure.",
+      "citation": "Hanna, R. (1964). Infrared Absorption Spectra of Sodium Silicate Glasses from 4 to 30 μm.",
+      "doi": "10.1111/j.1151-2916.1964.tb13113.x"
+    },
+    {
+      "id": "silicate-bend",
+      "enabled": true,
+      "context": "Silicate",
+      "group": "O–Si–O / Si–O–Si bending",
+      "min_cm-1": 400,
+      "max_cm-1": 600,
+      "note": "Low-wavenumber silicate bending region; instrument range may truncate it.",
+      "citation": "Hanna, R. (1964). Infrared Absorption Spectra of Sodium Silicate Glasses from 4 to 30 μm.",
+      "doi": "10.1111/j.1151-2916.1964.tb13113.x"
+    },
+    {
+      "id": "silicate-silanol",
+      "enabled": true,
+      "context": "Silicate",
+      "group": "Si–OH / silanol-related vibration",
+      "min_cm-1": 900,
+      "max_cm-1": 980,
+      "note": "Can overlap non-bridging Si–O modes; require hydration or surface-chemistry context.",
+      "citation": "Doremus, R. H. et al. (1997). Correlation of silica glass properties with the infrared spectra.",
+      "doi": "10.1016/S0022-3093(96)00542-X"
+    },
+    {
+      "id": "borate-bo3",
+      "enabled": true,
+      "context": "Borate",
+      "group": "B–O stretching in BO3 units",
+      "min_cm-1": 1200,
+      "max_cm-1": 1600,
+      "note": "Broad borate-network region; structural units and modifiers produce overlapping components.",
+      "citation": "Kamitsos, E. I., Patsis, A. P., & Chryssikos, G. D. (1993). Infrared reflectance investigation of alkali diborate glasses.",
+      "doi": "10.1016/0022-3093(93)90258-Y"
+    },
+    {
+      "id": "borate-bo4",
+      "enabled": true,
+      "context": "Borate",
+      "group": "B–O stretching in BO4 units",
+      "min_cm-1": 800,
+      "max_cm-1": 1200,
+      "note": "Approximate tetrahedral-boron region; use glass composition and deconvolution cautiously.",
+      "citation": "Kamitsos, E. I., Patsis, A. P., & Chryssikos, G. D. (1993). Infrared reflectance investigation of alkali diborate glasses.",
+      "doi": "10.1016/0022-3093(93)90258-Y"
+    },
+    {
+      "id": "borate-bending",
+      "enabled": true,
+      "context": "Borate",
+      "group": "B–O–B / borate network bending",
+      "min_cm-1": 600,
+      "max_cm-1": 800,
+      "note": "Network bending and ring-related modes may overlap.",
+      "citation": "Kamitsos, E. I., Patsis, A. P., & Chryssikos, G. D. (1993). Infrared reflectance investigation of alkali diborate glasses.",
+      "doi": "10.1016/0022-3093(93)90258-Y"
+    }
+  ]
+}

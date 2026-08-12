@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">
+  <title id="title">Halal FTIR logo</title>
+  <desc id="desc">The H is formed from four chorki blades and a maroon center connector.</desc>
+  <g fill="#06132F">
+    <rect x="170" y="80" width="25" height="160" rx="4"/>
+    <rect x="265" y="80" width="25" height="160" rx="4"/>
+  </g>
+  <rect x="195" y="148" width="70" height="24" rx="5" fill="#8A1538"/>
+  <text x="310" y="220" fill="#06132F" font-family="Georgia, Cambria, serif" font-size="78">alal</text>
+  <text x="475" y="220" fill="#06132F" font-family="Georgia, Cambria, serif" font-size="112" font-weight="700">FTIR</text>
+  <rect x="478" y="237" width="286" height="5" rx="2.5" fill="#8A1538"/>
+</svg>
